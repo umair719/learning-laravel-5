@@ -1,5 +1,9 @@
 <?php namespace App\Http\Controllers;
 
+/**
+ * Class WelcomeController
+ * @package App\Http\Controllers
+ */
 class WelcomeController extends Controller {
 
 	/*
@@ -32,5 +36,9 @@ class WelcomeController extends Controller {
 	{
 		return view('welcome');
 	}
+
+    public function contact(){
+        return view('pages.contact');
+    }
 
 }
